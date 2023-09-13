@@ -52,6 +52,8 @@ font-weight: 700;
 }
 .header{
     padding-top: 60px;
+    position: relative;
+
 }
 .vectors{
     position: relative;
@@ -59,14 +61,35 @@ font-weight: 700;
 .vector1, .vector2, .vector3, .vector4, .vector5{
     position: absolute;
 }
-.vector1{
-    top: 250px;
-    left: 100px;
+
+
+.vector5{
+    top: 10px;
+    left: 165px; 
+ }
+ 
+ .vector4{
+     top: 262px;
+     left: 385px;
+ }
+.vector3{
+   top: 95px;
+   left:535px;
 }
 
+.vector2{
+    top: 180px;
+    left: 455px;
+}
+
+.vector1{
+    top:360px;
+    left:408px;
+
+}
 .user-intro{
     color: #282828;
-    font-size: 65px;
+    font-size: 57px;
     font-weight: 700;
 }
 .pink-name{
@@ -95,7 +118,11 @@ font-weight: 700;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position:relative
 }
 .userimg{
-    width: 580px;
+    width: 540px;
+ 
 }
+
+
