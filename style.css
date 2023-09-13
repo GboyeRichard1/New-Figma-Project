@@ -212,7 +212,29 @@ display:flex;
 position: relative;
 margin-top: 60px;
 width: 1175px;
-height: 250px;
+height: 386px;
 border:2px solid black;
+}
+
+.vectormajor{
+position:absolute;
+width:300px;
+height:300px;
+}
+
+.Lvector{
+
+}
+
+.otherlvector{
+
+}
+
+.imagegroup{
+
+}
+
+.svgvector{
+
 }
 
