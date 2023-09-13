@@ -129,7 +129,6 @@ font-weight: 700;
 .Rectangle421{
     Position: relative;
     display: flex;
-    flex-direction: row;
     width: 1171px;
     height: 182px;
     flex-shrink: 0;
@@ -153,7 +152,6 @@ font-weight: 700;
     position: absolute;
     top: 680px;
     right: 140px;
-    display: flex;
     width: 530px;
     height: 98px;
     flex-shrink: 0;
@@ -170,7 +168,7 @@ font-weight: 700;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
-    line-height: 26px; /* 162.5% */
+    line-height: 26px; 
     position: absolute;
     top: 720px;
     left: 110px;
@@ -179,11 +177,33 @@ font-weight: 700;
 }
 
 .text1{
+    color: #C4C4C4;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    position:absolute;
+    top: 715px;
+    left:440px;
     
 }
 
 .Text2{
     
+    display:flex;
+    color: #282828;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    position:absolute;
+    top:715px;
+    right: 180px; 
+}
 
-
+.vector38, .vector39{
+  
+  
 }
