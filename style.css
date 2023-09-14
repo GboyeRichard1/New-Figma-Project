@@ -10,6 +10,7 @@ body{
 .general-content{
   max-width: 1200px;
   margin: 0 auto;
+  padding-bottom: 900px;
 }
 .navbar{
     background-color: #FFFAFA; 
@@ -52,8 +53,6 @@ font-weight: 700;
 }
 .header{
     padding-top: 60px;
-    position: relative;
-
 }
 .vectors{
     position: relative;
@@ -61,35 +60,14 @@ font-weight: 700;
 .vector1, .vector2, .vector3, .vector4, .vector5{
     position: absolute;
 }
-
-
-.vector5{
-    top: 10px;
-    left: 165px; 
- }
- 
- .vector4{
-     top: 262px;
-     left: 385px;
- }
-.vector3{
-   top: 95px;
-   left:570px;
-}
-
-.vector2{
-    top: 180px;
-    left: 455px;
-}
-
 .vector1{
-    top:360px;
-    left:408px;
-
+    top: 250px;
+    left: 100px;
 }
+
 .user-intro{
     color: #282828;
-    font-size: 57px;
+    font-size: 65px;
     font-weight: 700;
 }
 .pink-name{
@@ -118,123 +96,75 @@ font-weight: 700;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    position:relative
 }
 .userimg{
-    width: 540px;
- 
+    width: 580px;
+    object-fit: cover;
 }
-
-
-.Rectangle421{
-    Position: relative;
+.newsletter{
+    background-color: #F9F3F5;
+    padding: 30px 80px;
     display: flex;
-    flex-direction: row;
-    flex-shrink: 0;
-    background: #F9F3F5;
+    justify-content: space-between;
+    align-items: center;
+    gap: 60px;
 }
-
-.Heading{
+.news-text{
+  width: 40%;
+  text-align: center;
+}
+.news-title{
     color: #282828;
-    font-family: Poppins;
     font-size: 30px;
-    font-style: normal;
     font-weight: 700;
-    line-height: normal;
-    position: absolute;
-    top: 680px;
-    left: 154px; 
-
 }
-
-.Rectangle422{
-    position: absolute;
-    top: 680px;
-    right: 140px;
-    width: 570px;
-    height: 98px;
-    display: flex;
-    flex-shrink: 0;
-    background-color: white;
-    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.10);
-
-}
-
-.Text{
-    
+.news-prag{
     color: #C4C4C4;
-    text-align: center;
-    font-family: Poppins;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 26px; /* 162.5% */
-    position: absolute;
-    top: 720px;
-    left: 110px;
-    width:240px;
-    height: 200px;    
+    font-size: 18px;
 }
-
-.text1{
-    color: #C4C4C4;
-    font-family: Poppins;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    position:absolute;
-    top: 715px;
-    left:500px;
-    
+.news-input{
+width: 60%;
 }
-
-.Text2{
-    
+.news-btn{
     display: flex;
-    color: #282828;
-    font-family: Poppins;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    position:absolute;
-    top:715px;
-    right: 180px; 
+    gap: 5px;
 }
-
-.vector38, .vector39{
-     
+.news-email{
+    border: none;
+    outline: none;
+    background-color: #FFFAFA;
 }
-
-.container3{
-display:flex;
-position: relative;
-margin-top: 60px;
-width: 1175px;
-height: 386px;
-border:2px solid black;
+.newsbtn-text{
+    color: #282828
 }
-
-.vectormajor{
-position:absolute;
-width:300px;
-height:300px;
+.inputbox{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FFFAFA;
+    padding: 22px 48px;
 }
-
-.Lvector{
-
+.skills{
+    margin-top: 100px;
+    display: flex;
 }
-
-.otherlvector{
-
+.skills-img{
+ width: 45%;
+ position: relative;
 }
-
-.imagegroup{
-
+.skills-content{
+ width: 55%;
 }
-
-.svgvector{
-
+.skillimg-bg{
+    width: 100%;
 }
-
+.skillimg-container{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
