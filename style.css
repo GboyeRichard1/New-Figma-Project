@@ -4,8 +4,7 @@
     box-sizing: border-box;
 }
 body{
-    background-color: #FFFAFA;
-    z-index:50%; 
+    background-color: #FFFAFA; 
     
 }
 .general-content{
@@ -170,12 +169,13 @@ width: 60%;
     align-items: center;
 }
 
-.skills-content{
-    display: flex;
-    flex-direction: column;
-    width: 1290px;
-    padding-left: 100px;
-    display: flex;
-    flex-direction: column;
-    gap: 30px;
+.perecntagearea{
+  
+}
+
+.firstgroup{
+display:flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
 }
