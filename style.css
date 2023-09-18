@@ -147,14 +147,14 @@ width: 60%;
 .skills{
     margin-top: 100px;
     display: flex;
+  
 }
 .skills-img{
  width: 45%;
  position: relative;
+ 
 }
-.skills-content{
- width: 55%;
-}
+
 .skillimg-bg{
     width: 100%;
 }
@@ -166,16 +166,66 @@ width: 60%;
     height: 100%;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center; 
 }
 
-.perecntagearea{
+.skills-content{
+    width:45%;
+    margin-left: 35px;
+}
+
+h3{
+    color: #282828;
+    font-family: Poppins;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-top: 30px;
+}
+
+p{ 
+    color: #282828;
+    font-family: Poppins;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    max-width: 80%;
+}
+
+.Percentagearea{
+    display:flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: space-between;
+   padding-top: 100px;
+   position:absolute;
+   left:50%;
+   margin-top: 60px; 
+   gap: 40px;
   
 }
 
-.firstgroup{
-display:flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-}
+
+.Percentagearea1 h4, .Percentagearea2 h4, .Percentagearea3 h4, .Percentagearea4 h4{
+    color: #282828;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+    }
+    
+.Percentagearea1 p, .Percentagearea2 p, .Percentagearea3 p, .Percentagearea4 p{
+        color: #282828;
+        font-family: Poppins;
+        font-size: 13px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        text-align: center;
+        
+        }
